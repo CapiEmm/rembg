@@ -8,6 +8,4 @@ RUN rembg d u2net
 
 EXPOSE 7000
 
-ENTRYPOINT ["rembg", "s"]
-
-CMD ["--host", "0.0.0.0", "--port", "7000"]
+CMD ["rembg", "s", "--host", "0.0.0.0", "--port", "7000"]
